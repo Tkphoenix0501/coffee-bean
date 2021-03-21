@@ -183,7 +183,7 @@ p{
     margin-top: 2em;
     overflow: auto;
 }
-.merch .merch-gallery .merch-items{
+.merch-items{
     /* border: 2px solid blue; */
     width: 24.25%;
     float: left;
@@ -448,6 +448,7 @@ th,td{
 }
 
 /* responsive design code */
+/* max-width = if the screen size reach to 0-768px apply this css */
 @media screen and (max-width: 768px){
     .ads-items{
         float: none;
@@ -455,5 +456,16 @@ th,td{
     }
     .ads-item1{
         margin-bottom: 3%;
+    }
+    .merch-items {
+        float: left;
+        width: 49.5%;
+    }
+    .merch-item2,.merch-item6{
+        margin-right: 0;
+    }
+    .footer-widgets{
+        float: none;
+        width: 100%;
     }
 }
